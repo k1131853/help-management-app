@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ma-family-otestudai",
+  "private_key_id": "5f54b22aedd2a7204f5b09ba9205b5daf498ca40",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCtlzJc9w83vtvd\nU23LvuBZdH2I1Lve/JRQa2la8KRf3TIiVlQpMUwYBadAcjj5Rueh0ngoGVQ5gG4T\nxYvsfNzi14juU0EvqhsHUAabYt2XvkHBniZN4xJlERE1obXmGwpSsSFxIY1a90kC\n2ouqYMdGSDYTYpadczsh2zO1S87pFowtcQmYMiut7kPS4EuTdbnSjD0epYfTcdQt\nmFFNMo+CLIcsp1xfqR0fghx9pDXdsGGp0J+CtUdOBA4OUSo1S9s8hDAzTsAwPu17\nv2T7+ALg8bK7kQr0OWim0lRxJAY8ppnNVuZhqXYDs0BR12op8EK2DxhBKShBjxlF\nmD0RMEhfAgMBAAECggEAQIxr4FDIGlkApaSbu7r+7pSYB3TfZTPzrJG8S+IWpUT5\nmvYR9n1Lx9T2U8sFb4ATqsM6BeMhQ/6DMBvxg18MvdcaplBT+Xbd9RKnWklhj8bh\n6a62nJi2otk9Vn2Kx4U/ie8uucQZrX0ta3+7ln/FKde5L+0lh2etUdISQLRvPJGW\nDy8jeOaEok6PKYUv9t5jMFIIGhdl1zdBE0GDc2mh4FdGRqZ0vpFFR+kVLgzOEBzS\n1NLfwbZtV/0e+4iFN7E6yhfgGKDwQrK2+FcHov7F6J04NCQ0WLvRsajDI611gtgj\nkavlCgapdNV34ipYkBqPIn6i/VknaPcTxM11UzowzQKBgQDj3IU9jGAm9T6f5Agv\n9RQKxjt98ecNi6nssEvC4f/WmQJ3f8KMaSY68kABAOdzuNarH9IIlrKXaaOiEyZx\nhCgitVvjJBmn7wIfZ/cKeCU3G3VVB0w8GXkEcVFPF6z6vRAbvv2+6/PG3737nTld\nJb2pDWOWcsT6GQ2qHiDNP26q5QKBgQDDBv2TNBy2ooTGekXCMIh09tHr6KP8JCWr\nEfl1ymtTOoNPV2A9vpflHGuVzNENfyhFAAqh8ijBoWx/XcmEQ8yqpx3w77PmpitQ\nAHFrlHbU4AkiUjzZxQ/2OlIqbrnZXENw+WF7eqZxERzux23nglGQ9yjzr2PHRYqX\nkApxBoW98wKBgQCUAyv9xhCzXb0XSZ3T4SPqt8fvUNJgpydzGzWrWvjAIlZK34+1\ne5wc0D2pKTgvoJK5SAs8Dv/lgPaNEll3hXw4x4vvqQSNZKEBW5xKja7G9CwsVng7\n1eQZca56bQutOGCdVVwox8Zrme0j44ZermRbytm04cp4FwwcREPUb27ozQKBgQCc\nPkV4YQ9/4cOtnte0M12fFv4mmUKHBg6Hdub7zyccjowUTFP2I3NdQd+PK39v6KdC\nYD4kb/Tm64QYpfKD3C1jqm76T485AXdBqJk1LsPk13d535iQfqfDBAY/qGWMFbaS\nE7hdTG17t9IOGgeaqXTfRqOwVpsBUl0t/1/eHPOYsQKBgANoOtw+9V8l6+07WiFn\nZJu3B+IJS+QCQEtD/l3K8eENdvoVCHdMpRB1N8y573775QiLMh6EG0GRoh26xV7q\n2ejfkUkPWmdUBP6HW4afEDbqSlH4QmE3hR4ZaA/MpHYJd3tD8IBx1E4ShO2Nm2bG\n6CuPCweBadZdwHdzkV3lGZR2\n-----END PRIVATE KEY-----\n",
+  "client_email": "ma-family-otetsudai@ma-family-otestudai.iam.gserviceaccount.com",
+  "client_id": "115757913826743355427",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ma-family-otetsudai%40ma-family-otestudai.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
