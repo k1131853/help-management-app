@@ -173,14 +173,16 @@ if st.session_state.authenticated:
 
 
 
-    otetudai_dict = {"sentaku":110,"syokusenki":17,"kitchen":105,"huro":228,"senmendai":52,"ruro":100,"gomi_matome":35,"gomi_dashi":158,"sentaku_matome":87,"syokki":70}
+    otetudai_dict = {"sentaku":90,"syokusenki":15,"kitchen":110,"huro":120,"senmendai":40,"ruro":300,"gomi_matome":20,"gomi_dashi":100,"sentaku_matome":50,"syokki":20,"maro_sanpo_un":350,"maro_sanpo_nashi":20}
+    #2025年10月金額の見直しを実施　マロの散歩を追加
 
     checkbox_keys = {
-        "sentaku": "洗濯機起動:110円", "syokusenki": "食洗機運転:17円", 
-        "kitchen": "キッチンリセット:105円", "huro": "風呂掃除:228円", 
-        "senmendai": "洗面台リセット:52円", "ruro": "掃除機またはルーロ起動:100円", 
-        "gomi_matome": "ゴミまとめ:35円", "gomi_dashi": "ゴミ出し:158円",
-        "sentaku_matome":"洗濯物畳む:87円","syokki":"食器出し＆ゴミ取り:70円"
+        "sentaku": "洗濯機起動:90円", "syokusenki": "食洗機運転:15円", 
+        "kitchen": "キッチンリセット:110円", "huro": "風呂掃除:120円", 
+        "senmendai": "洗面台リセット:40円", "ruro": "掃除機またはルーロ起動:300円", 
+        "gomi_matome": "ゴミまとめ:20円", "gomi_dashi": "ゴミ出し:100円",
+        "sentaku_matome":"洗濯物畳む:50円","syokki":"食器出し＆ゴミ取り:20円",
+        "maro_sanpo_un":"マロ散歩(うんこ出た):350円","maro_sanpo_nashi":"マロ散歩(うんこ出なかった):20円"
     }
     new_row, money,new_result = check_value(formatted_date=formatted_date)
 
@@ -215,21 +217,27 @@ if st.session_state.authenticated:
     st.subheader("獲得金額の推移")
     st.line_chart(data=plot_df,width=0,height=0,use_container_width=True,color=["#fd0", "#98FB98", "#00FFFF"])
 
+    st.markdown(
+        f"""
+        <div style="font-size:24px;">
+            <span>&lt;まだやっていないもの&gt;</span>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
-
-    if st.button("まだやっていないものを確認"):
-        count = 0
-        if new_result:
-            st.error("全てやっていません。")
-        else:
-            for col in today_df.columns:
-                if not today_df[col].isin([1, 2, 3]).all():
-                    st.write("・",col)
-                else:
-                    count +=1
-        
-            if count == 10:
-                st.success("全て実施しています")
+    count = 0
+    if new_result:
+        st.error("全てやっていません。")
+    else:
+        for col in today_df.columns:
+            if not today_df[col].isin([1, 2, 3]).all():
+                st.write("・",col)
+            else:
+                count +=1
+    
+        if count == 12:
+            st.success("全て実施しています")
 
 else:
     st.warning("認証が必要です。IDを入力してください。")
